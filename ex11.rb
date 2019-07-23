@@ -20,6 +20,6 @@ name = gets.chomp.upcase
 print "what's your native?."
 place = gets.chomp.capitalize
 print "Mention your marital status?."
-marital = gets.strip        # gets.strip ->strip means remove the before and after \n in a given string.                  
+marital = gets.strip                          
 
 puts "Hi, #{name}, welcome to our site,your are native #{place} right!, you have mention your marital status as #{marital}.."
