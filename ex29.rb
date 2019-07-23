@@ -35,11 +35,11 @@ if people == dogs
   puts "People are dogs."
 end
 
-#1 if is conditional operator, using that we can compare the inputs and if it's true it'll print under the statement ,otherwise it'll go to else statement.
+#1 if is  a conditional operator, using that we can compare the inputs and if it's true it'll print under the statement ,otherwise it'll go to else statement.
 
-#2 code does two spaces,because of avoid ambigious code., it seems clear while usig spaces..
+#2 code does two spaces,because of avoid ambigious code., it seems clear while using spaces..
 
-#3 It works fine, rather if it isn't indented. suppose if we remove end then it wont works.
+#3 It will works fine, but if it isn't indented. suppose if we remove end then it wont works.
 
 #4 I have changed the initial values of dog,people and cats,now result has modified as per if conditions..,
 if((people <= cats) && (people == dogs))

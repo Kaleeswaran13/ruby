@@ -39,8 +39,8 @@ puts "\n"
 height_inch = 65 #inches
 weight_lbs = 150 #pounds
 
-height_cms = height_inch * 2.54       #converted inches to centimeter and assigned result to height_cms
-weight_kgs = weight_lbs *0.453592     #converted pounds to kilogram and assigned result to weight_kgs
+height_cms = height_inch * 2.54       #convert inches into centimeter and assigned result to height_cms
+weight_kgs = weight_lbs *0.453592     #convert pounds into kilogram and assigned result to weight_kgs
 
 puts "my height in inches is #{height_inch} and my height in centimeter is #{height_cms}"
 puts "my weight in pounds is #{weight_lbs} and my weight in kilogram is #{weight_kgs}"

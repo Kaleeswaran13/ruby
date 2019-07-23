@@ -1,4 +1,4 @@
-filename = ARGV.first             #I have used ARGV to get input from command line also assigned that value to the variable filename.
+filename = ARGV.first             # ARGV to get input from command line also assigned that value of variable filename.
 
 puts "We're going to erase #{filename}"         #prints string along the filename.
 puts "If you don't want that, hit CTRL-C (^C)." #prints string to screen.
@@ -7,12 +7,12 @@ puts "If you do want that, hit RETURN."        #prints string to screen.
 $stdin.gets     # gets input from user with \n at the end
 
 puts "Opening the file..."     #prints string to screen
-target = open(filename, 'w')   #open file with write mode.
+target = open(filename, 'w')   #open a file with write mode.
 
 puts "Truncating the file.  Goodbye!"  #prints string to screen. 
-target.truncate(0)        #made empty the file.
+target.truncate(0)        #it will made an empty  file.
 
-puts "Now I'm going to ask you for three lines."   #print string to string
+puts "Now I'm going to ask you for three lines."   #print string to display the screen.
 
 print "line 1: "
 line1 = $stdin.gets.chomp     #gets input from user also assigned value to line1.
@@ -23,7 +23,7 @@ line3 = $stdin.gets.chomp    #gets input from user also assigned value to line3
 
 puts "I'm going to write these to the file."
  
-target.write(line1)                #used to write file with the line1  content.
+target.write(line1)                #used to write file with line1  content.
 target.write("\n")                 #It can be created new line in file.
 target.write(line2)
 target.write("\n")
@@ -74,6 +74,6 @@ no_target.write(final_line)             # I have used only one write instead of 
 puts "And finally, we close it."        # prints quoted string.
 no_target.close                         # after complete the file has closed.
 
-#4 If we pass w in open ,then the file would be open in write mode.
+#4 If we pass w in open ,then the file open in write mode.
 
 #5 If we open the file with 'w'mode,then don't need to truncate the file.

@@ -23,11 +23,11 @@ out_file.close       #closing out_file
 #1
 from_file, to_file = ARGV  #Gets input from command line arguments.
 
-indata = open(from_file).read ()  #I have opened the file as well read the file.
+indata = open(from_file).read ()  #I have opened the file and read it.
 
 puts "Does the output file exist? #{File.exist?(to_file)}"
 
-open(to_file, 'w').write(indata) #open write file and which is write contents in indata.
+open(to_file, 'w').write(indata) #open to_file and which is write contents in indata.
 
 puts "Alright, all done."
 
@@ -38,4 +38,4 @@ open(to_file, 'w').write(open(from_file).read())
 
 #3 yeah,cat is stands of concatenate ,which is used to display an exact file content to screen.
 
-#4 closing open files is essential one.
+#4 closing the  open files .

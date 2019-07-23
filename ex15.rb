@@ -2,8 +2,8 @@ filename = ARGV.first                    # We can use ARGV to get input from com
 
 txt = open(filename)                     # Open is used to just open a text file.
 
-puts "Here's your file #{filename}"     # It has printed the string along with the filename variable value. 
-print txt.read                           # Here read has been used to read the file.then print displays the file contents.
+puts "Here's your file #{filename}"     # It has printed the string with the filename variable value. 
+print txt.read                           # Here read is used to read the file.then print displays the file contents.
 
 txt.close()            #close() is used to close the txt file.
 
@@ -14,6 +14,6 @@ file_again = $stdin.gets.chomp      # I have used another method $stdin.gets.cho
 
 txt_again = open(file_again)        # Again we used open to open a file.
 
-print txt_again.read                #Here also again read the file contents and displays in screen
+print txt_again.read                #Here also again read the file contents and displays in screen.
 
 txt_again.close()            # close() is used to close the file.

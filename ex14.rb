@@ -1,5 +1,5 @@
-user_name = ARGV.first           # Used to get the first  variable  via comment line 
-first_name, last_name = ARGV     #3 I have added teo more arguments.
+user_name = ARGV.first           # Used to get the first variable via comment line 
+first_name, last_name = ARGV     #3 I have added two more arguments.
 prompt = '---> '  
 
 puts "Your first name is: #{first_name}"
@@ -16,7 +16,7 @@ puts prompt
 lives = $stdin.gets.chomp
 
 
-puts "What kind of computer do you have? ", prompt                        # a comma for puts is like using it twice
+puts "What kind of computer do you have? ", prompt                        # a comma purpose is puts is like using it twice.
 computer = $stdin.gets.chomp
 
 puts """
@@ -27,4 +27,4 @@ And you have a #{computer} computer.  Nice.
 
 #2 I have changed prompt variable > to --->
 #3 I have modified the script.
-#4 I have understood the concept of """  style multiline string  with the #{} format activator. 
+#4 I have understood the concept of """  style multiline string  with #{} format. 

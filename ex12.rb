@@ -12,7 +12,7 @@ smaller = number / 100
 puts "A smaller number is #{smaller}"
 
 
-#1 gets.chomp.to_f is used to convert string value to float.
+#1 gets.chomp.to_f is used to convert string value into float value.
 print "Give me a number: "
 num = gets.chomp.to_f
 

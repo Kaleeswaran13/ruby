@@ -29,4 +29,4 @@ puts "\n"
 puts"Welcome to our webpage"
 
 #3
-#puts "Hash (#) symbol is used for only comment our script line.."
+#puts "Hash (#) symbol is used for only comment to our script line.."

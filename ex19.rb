@@ -1,6 +1,6 @@
 def cheese_and_crackers(cheese_count, boxes_of_crackers)   #define function with function name and arguments.
-  puts "You have #{cheese_count} cheeses!"                 #simply prints the string with cheese_count
-  puts "You have #{boxes_of_crackers} boxes of crackers!"  #simply prints the string with boxes of crackers.
+  puts "You have #{cheese_count} cheeses!"                 # prints the string with cheese_count
+  puts "You have #{boxes_of_crackers} boxes of crackers!"  #prints the string with boxes_of_crackers.
   puts "Man that's enough for a party!"
   puts "Get a blanket.\n"
 end                     # end of the function
@@ -18,7 +18,7 @@ cheese_and_crackers(amount_of_cheese, amount_of_crackers)
 
 
 puts "We can even do math inside too:"
-cheese_and_crackers(10 + 20, 5 + 6)               # did math in arguments and passing values to the function name cheese_and_crackers.
+cheese_and_crackers(10 + 20, 5 + 6)               # i did math in arguments and passing values to the function name cheese_and_crackers.
 
 
 puts "And we can combine the two, variables and math:"

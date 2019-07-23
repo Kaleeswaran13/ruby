@@ -25,7 +25,7 @@ def secret_formula(started)              # define function with mathemetical val
   jars = jelly_beans / 1000
   crates = jars / 100
   return jelly_beans, jars, crates
-end
+end                                     #end the function.
 
 
 start_point = 10000                       # Assign 10000 value to start_point.

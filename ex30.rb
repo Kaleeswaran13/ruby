@@ -3,23 +3,23 @@ cars = 40
 trucks = 15
 
 
-if cars > people                         #Here if the condition cars greater than people means, it'll print the statement below it. 
+if cars > people                         #Here if condition is cars greater than people means, it'll print the statement below it. 
   puts "We should take the cars."
-elsif cars < people                      # This statement will consider once the if gets fail also cars value less than people means it'll print under it. 
+elsif cars < people                      # This statement will consider once the if gets fail also cars value less than people means it'll print. 
   puts "We should not take the cars."
 else
   puts "We can't decide."               # This will run,both if and else if gets fail.
 end
 
-if trucks > cars                    # check trucks is greater than cars or not,if it  so it'll print under it.
+if trucks > cars                    # check trucks is greater than cars,it will print under it.
   puts "That's too many trucks."
-elsif trucks < cars              # It checks trucks less than cars,if it so it"ll print under it, this condition runs once if gets fail,otherwise it skips.
+elsif trucks < cars              # It checks trucks less than cars,it"ll print under it, this condition runs once if gets fail,otherwise it skips.
   puts "Maybe we could take the trucks."
 else
   puts "We still can't decide."
 end
 
-if people > trucks           # if people value greater than trucks is print the below value.
+if people > trucks           # if people value is  greater than trucks is print the below value.
   puts "Alright, let's just take the trucks."
 else                # else print the below value.
   puts "Fine, let's stay home then."

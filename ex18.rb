@@ -27,7 +27,7 @@ print_none()
 
 #1 Yup, I have started my function definition with def.
 
-#2 yes, my function name have only charecters and _(underscore)charecters.
+#2 yes, my function name have only one charecters of _(underscore)charecters.
 
 #3 yes, i have put open parenthesis( right after my function name .
 
@@ -39,9 +39,9 @@ print_none()
 
 #7 yes, i think so.
 
-#8 yes, i end my function with end lined up with the def above.
+#8 yes, i put end my function with end lined up with the def above.
 
-#9 I have used to call/run/use by typinf it's name.
+#9 I have used to call/run/use by typing it's name.
 
 #10 I have put the ( charecter after the name to run it.
 

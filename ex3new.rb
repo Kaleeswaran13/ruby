@@ -11,4 +11,4 @@ puts "Is it true? #{55 * 3 % 3 == 0} "               #55*3=165,165%3=0, so 0==0 
 puts 4.2 / 2                                         #4.2/2=2.1
 puts "#{28.0 % 3}"                                   #28.0%3=1.0
 puts 7 / 2 + 1 + 7.0 / 2 + 1                         #7/2=3,but  7.0/2=3.5,so 3+1+3.5+1=8.5
-puts "To find 8^3 #{8 ** 3}"                         #if we use directly 8^3 in calculation which results into 8+3=11,so have to use it as 8**3=512
+puts "To find 8^3 #{8 ** 3}"                         #if we directly used 8^3 in calculation which results into 8+3=11,so  it's used as 8**3=512

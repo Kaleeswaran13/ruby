@@ -9,9 +9,9 @@ puts "I could have code like this." # and the comment after this ignored
 puts "This will run."
 
 
-#1 octothrope or pound charecter (#) is used to comment our scripts,which is ignored by ruby.
+#1 octothrope or pound charecter (#) is used to comment our scripts.
 
-#2 I have checked..
+#2 I had to checked this..
 
 #3 I found one mistakes, now i fixed it.
 

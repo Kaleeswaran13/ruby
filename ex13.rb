@@ -4,7 +4,7 @@ puts "Your first variable is: #{first}"
 puts "Your second variable is: #{second}"
 puts "Your third variable is: #{third}"
 
-#1  I have tried, it we use fewer than three arguments,then the balance scripts results into an empty.
+#1  I had to tried, but we use fewer than three arguments,then the balance scripts results into an empty.
 #2  If we use more than three arguments which ignoredd by ruby.
 
 
